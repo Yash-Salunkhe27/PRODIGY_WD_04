@@ -1,4 +1,3 @@
-
 const API_KEY = 'ea17fb7fc396b5a04e2e39c06ab88826';
 const API_BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const ICON_BASE_URL = 'https://openweathermap.org/img/wn/';
@@ -296,4 +295,5 @@ window.addEventListener('DOMContentLoaded', () => {
         showError('Please configure your API key in script.js file. See the instructions at the top of the file.');
     }
 });
+
 
